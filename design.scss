@@ -1,0 +1,362 @@
+*{
+    margin:0px;
+    padding:0px;
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+$color1:#073c6c;
+$color2:#e9f3e1;
+$color3:#5cdb94;
+$color4:#3a9383;
+$color5:#44a46c;
+$color6:#abe2c4;
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: $color3;
+    box-sizing: border-box;
+
+.cart{
+position: absolute;
+width: 34px;
+height: 34px;
+border-style: none;
+background-color: $color5;
+transition: 0.35s;
+transition-property: right;
+}
+.cart i{
+    font-size: 30px;
+    cursor: pointer;
+    padding: 20px;
+    color: $color1;
+}
+.cart i:hover{
+    color: $color2;
+}
+
+
+
+h1{
+   
+    background-color: $color5;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 100%;
+    height: 50px;
+    i{
+        position: absolute;
+        top: 15px;
+        color: $color1;
+        margin-left:20px;
+       right: 80px;
+    }
+    .start{
+        position:absolute;
+        right: 65px;
+        top: -33px;
+        color: $color2;
+         font-family: 'Baloo Tammudu 2', cursive;
+         font-size:70px;
+        
+    }
+    .end{
+        position:absolute;
+        top: 11px;
+        color: $color2;
+        font-family: 'Baloo Tammudu 2', cursive;
+    }
+    
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Baloo Tammudu 2';
+    font-size: 20px;
+   ul{
+    list-style: none;
+    margin-top: -40px;
+    margin-left: 800px;
+   
+   }
+    li{
+        display: inline;
+        padding: 1px;
+        margin:20px;
+        color: $color2;
+        cursor: pointer;
+    }
+    i{
+        color:$color1;
+    }
+    a{
+        color:$color2;
+        list-style: none;
+        text-decoration: none;
+    }
+    li a:hover{
+        color:$color1;
+      
+    }
+}
+.imageinside{
+    position:absolute;
+    width: 77%;
+    height: 60%;
+    background-color: $color6;
+    top:80px;
+    left:280px;
+    .imageone{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+label #sidebar{
+    z-index: 1;
+     cursor: pointer;
+     background-color: $color5;
+     position: absolute;
+     left:220px;
+     top:30px;
+    border-radius: 25px;
+    transition: 0.20s;
+    
+}
+label #sidebar:hover{
+background-color: $color1;
+}
+#check:checked ~.dressshop{
+left: -230px;
+}
+#check:checked ~.imageinside{
+    left: 80px;
+    }
+#check:checked ~.database{
+        left: 80px;
+        }
+#check{
+    display: none;
+}
+.dressshop{
+    position: absolute;
+    width:250px;
+   transition: 0.35s;
+   transition-property: left;
+    
+    .mainone{
+        display:flex;
+        flex-direction: column;
+      
+        // margin:10px;
+        padding: 10px;
+        text-decoration: none;
+        list-style: none;
+        background-color: $color5;
+        font-family: 'Baloo Tammudu 2';
+        
+        li{
+            border-radius: 15px;
+            color: $color1;
+            font-family: 'Baloo Tammudu 2';
+            list-style: none;
+            margin: 10px;
+            background-color: $color3;
+            i{
+                margin:5px;
+                color:$color2;
+                // font-family:'Anton', sans-serif;
+            }
+            ul{
+               background-color: $color4; 
+               border-radius: 15px;
+               margin-left: 5px;
+               margin-right: 5px;
+              padding:5px;
+              li{
+                background-color: $color2;
+                padding: 5px;
+                cursor: pointer;
+                transition: 0.34s;
+            }
+            li:hover{
+                background-color: $color5;
+                color: $color2;
+            }
+            }
+            
+        }
+    
+    }
+}
+.database{
+    position: absolute;
+    top:499px;
+    left:280px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 30px;
+    column-gap: 25px;
+   
+    
+    z-index:-1;
+    div{
+       position: relative;
+       width: 230px;
+       height: 250px;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+        img{
+           position: relative;
+          width:50%;
+          height: 50%;
+          border-radius: 50%;
+        }
+        h1{
+           font-family: 'Baloo Tammudu 2';
+           font-size: 25px;
+           justify-content: center;
+           background-color: $color3;
+        }
+        p{
+            font-family: sans-serif;
+            font-size: 13px;
+        }
+        button{
+             border-style: none;
+             font-family: 'Baloo Tammudu 2';
+            font-size:13px;
+             border-radius: 10px;
+             color: $color6;
+             background-color:$color1;
+             
+             width: 100px;
+             cursor: pointer;
+             i{
+                 justify-content: center;
+                 align-items: center;
+             }
+
+        }
+        button:hover{
+            background-color: $color2;
+            color: $color1;
+        }
+    }
+         }
+ .foot{
+     position: fixed;
+     width: 100%;
+      height:20px;
+      bottom: 0px;
+      background-color: $color1;
+      
+      
+     ul{
+         display: flex;
+         justify-content: right;
+         align-items: right;
+         list-style: none;
+         
+         li{
+             padding-right: 10px;
+             color: $color2;
+             i{
+                 font-size: 20px;
+                 
+             }
+         }
+          
+     }
+     
+ } 
+.loader-container{
+    width: 100%;
+    height: 200%;
+    background-color: $color1;
+    position: absolute;
+    margin-top: -50px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+   
+}
+.loader{
+    position: absolute;
+    top: 250px;
+    width:100px;
+    height:100px;
+    border: 2px solid;
+    color:$color3;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: loader 1.2s linear infinite;
+    @keyframes loader {
+        25%{
+            color:$color4;
+        }
+        50%{
+            color:pink;
+        }
+        75%{
+            color:yellow;
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+}
+@media (max-width:1300px){
+    .menu ul{
+        margin-left:377px;
+    }
+}
+@media (max-width:1000px){
+    .menu ul{
+        margin-left: 150px;
+    }
+}
+@media (max-width:800px){
+    .menu  ul{
+        margin-left: 100px;
+    }
+}
+@media (max-width:700px){
+    .menu 
+    ul{
+        margin-left: 50px;
+    }
+}    
+@media (max-width:600px){
+    .menu ul{
+        margin-left: 0px;
+    }
+    h1 i{
+        z-index: -1;
+    }
+    h1 .start{
+        display: none;
+    }
+    h1 .end{
+        display: none;
+    }
+    label #sidebar
+    {
+        z-index: 1;
+        position: absolute;
+        left:0;  
+    }
+    .cart{
+        right:0px;
+    }
+}
+}

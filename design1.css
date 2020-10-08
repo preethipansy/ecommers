@@ -1,0 +1,335 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.mes {
+  position: absolute;
+  top: 150px;
+  left: 488px;
+  font-family: 'Baloo Tammudu 2';
+}
+
+.mes i {
+  z-index: 1;
+  font-size: 30px;
+}
+
+.logincontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logincontainer form {
+  margin-top: -700px;
+  margin-left: 500px;
+  width: 400px;
+  height: 350px;
+}
+
+.logincontainer form fieldset {
+  text-decoration: none;
+  border: 2px solid #073c6c;
+  border-radius: 20px;
+}
+
+.logincontainer form fieldset legend {
+  margin-left: 10%;
+  text-decoration: none;
+}
+
+.logincontainer form fieldset legend i {
+  color: #e9f3e1;
+  font-size: 60px;
+}
+
+.logincontainer form fieldset:hover {
+  height: 300px;
+}
+
+.logincontainer form fieldset:hover .in {
+  margin: 30px;
+}
+
+.logincontainer form fieldset:hover .pa {
+  margin: 30px;
+}
+
+.logincontainer form fieldset:hover .sub {
+  margin: 30px;
+}
+
+.logincontainer form input {
+  width: 330px;
+  height: 35px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.logincontainer form .in {
+  margin-left: 30px;
+  font-family: 'Baloo Tammudu 2';
+  font-size: 20px;
+  background-color: #5cdb94;
+  color: black;
+  border-color: #073c6c;
+  cursor: pointer;
+}
+
+.logincontainer form .in:hover {
+  border-top-color: transparent;
+  -webkit-animation: in 1.2s linear infinite;
+          animation: in 1.2s linear infinite;
+}
+
+@-webkit-keyframes in {
+  25% {
+    border-color: #073c6c;
+  }
+  50% {
+    border-color: #e9f3e1;
+  }
+  75% {
+    border-color: #44a46c;
+  }
+  to {
+    -webkit-transform: border rotate(360deg);
+            transform: border rotate(360deg);
+  }
+}
+
+@keyframes in {
+  25% {
+    border-color: #073c6c;
+  }
+  50% {
+    border-color: #e9f3e1;
+  }
+  75% {
+    border-color: #44a46c;
+  }
+  to {
+    -webkit-transform: border rotate(360deg);
+            transform: border rotate(360deg);
+  }
+}
+
+.logincontainer form .pa {
+  margin-left: 30px;
+  font-family: 'Baloo Tammudu 2';
+  font-size: 20px;
+  background-color: #5cdb94;
+  color: black;
+  border-color: #073c6c;
+  cursor: pointer;
+}
+
+.logincontainer form .pa:hover {
+  border-top-color: transparent;
+  -webkit-animation: pa 1.2s linear infinite;
+          animation: pa 1.2s linear infinite;
+}
+
+@-webkit-keyframes pa {
+  25% {
+    border-color: #073c6c;
+  }
+  50% {
+    border-color: #e9f3e1;
+  }
+  75% {
+    border-color: #44a46c;
+  }
+  to {
+    -webkit-transform: border rotate(360deg);
+            transform: border rotate(360deg);
+  }
+}
+
+@keyframes pa {
+  25% {
+    border-color: #073c6c;
+  }
+  50% {
+    border-color: #e9f3e1;
+  }
+  75% {
+    border-color: #44a46c;
+  }
+  to {
+    -webkit-transform: border rotate(360deg);
+            transform: border rotate(360deg);
+  }
+}
+
+.logincontainer form .sub {
+  margin-left: 30px;
+  font-family: 'Baloo Tammudu 2';
+  font-size: 20px;
+  background-color: #073c6c;
+  color: #e9f3e1;
+  border-color: #073c6c;
+  cursor: pointer;
+}
+
+.logincontainer form .sub:hover {
+  background-color: black;
+  color: white;
+}
+
+.signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signup form {
+  margin-top: -700px;
+  margin-right: 400px;
+  width: 400px;
+  height: 350px;
+}
+
+.signup form fieldset {
+  text-decoration: none;
+  border: 2px solid #073c6c;
+  border-radius: 20px;
+}
+
+.signup form fieldset legend {
+  margin-left: 45%;
+  text-decoration: none;
+}
+
+.signup form fieldset legend i {
+  color: #e9f3e1;
+  font-size: 60px;
+}
+
+.signup form fieldset:hover {
+  height: 410px;
+}
+
+.signup form fieldset:hover .in {
+  margin: 30px;
+}
+
+.signup form fieldset:hover .pa {
+  margin: 30px;
+}
+
+.signup form fieldset:hover .sub {
+  margin: 30px;
+}
+
+.signup form input {
+  width: 330px;
+  height: 35px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.signup form .in {
+  margin-left: 30px;
+  font-family: 'Baloo Tammudu 2';
+  font-size: 20px;
+  background-color: #5cdb94;
+  color: black;
+  border-color: #073c6c;
+  cursor: pointer;
+}
+
+.signup form .in:hover {
+  border-top-color: transparent;
+  -webkit-animation: in 1.2s linear infinite;
+          animation: in 1.2s linear infinite;
+}
+
+@keyframes in {
+  25% {
+    border-color: #073c6c;
+  }
+  50% {
+    border-color: #e9f3e1;
+  }
+  75% {
+    border-color: #44a46c;
+  }
+  to {
+    -webkit-transform: border rotate(360deg);
+            transform: border rotate(360deg);
+  }
+}
+
+.signup form .pa {
+  margin-left: 30px;
+  font-family: 'Baloo Tammudu 2';
+  font-size: 20px;
+  background-color: #5cdb94;
+  color: black;
+  border-color: #073c6c;
+  cursor: pointer;
+}
+
+.signup form .pa:hover {
+  border-top-color: transparent;
+  -webkit-animation: pa 1.2s linear infinite;
+          animation: pa 1.2s linear infinite;
+}
+
+@keyframes pa {
+  25% {
+    border-color: #073c6c;
+  }
+  50% {
+    border-color: #e9f3e1;
+  }
+  75% {
+    border-color: #44a46c;
+  }
+  to {
+    -webkit-transform: border rotate(360deg);
+            transform: border rotate(360deg);
+  }
+}
+
+.signup form .sub {
+  margin-left: 30px;
+  font-family: 'Baloo Tammudu 2';
+  font-size: 20px;
+  background-color: #073c6c;
+  color: #e9f3e1;
+  border-color: #073c6c;
+  cursor: pointer;
+}
+
+.signup form .sub:hover {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=design1.css.map */

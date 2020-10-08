@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #5cdb94;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .cart {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  border-style: none;
+  background-color: #44a46c;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+  -webkit-transition-property: right;
+  transition-property: right;
+}
+
+body .cart i {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 20px;
+  color: #073c6c;
+}
+
+body .cart i:hover {
+  color: #e9f3e1;
+}
+
+body h1 {
+  background-color: #44a46c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  width: 100%;
+  height: 50px;
+}
+
+body h1 i {
+  position: absolute;
+  top: 15px;
+  color: #073c6c;
+  margin-left: 20px;
+  right: 80px;
+}
+
+body h1 .start {
+  position: absolute;
+  right: 65px;
+  top: -33px;
+  color: #e9f3e1;
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 70px;
+}
+
+body h1 .end {
+  position: absolute;
+  top: 11px;
+  color: #e9f3e1;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+body .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: 'Baloo Tammudu 2';
+  font-size: 20px;
+}
+
+body .menu ul {
+  list-style: none;
+  margin-top: -40px;
+  margin-left: 800px;
+}
+
+body .menu li {
+  display: inline;
+  padding: 1px;
+  margin: 20px;
+  color: #e9f3e1;
+  cursor: pointer;
+}
+
+body .menu i {
+  color: #073c6c;
+}
+
+body .menu a {
+  color: #e9f3e1;
+  list-style: none;
+  text-decoration: none;
+}
+
+body .menu li a:hover {
+  color: #073c6c;
+}
+
+body .imageinside {
+  position: absolute;
+  width: 77%;
+  height: 60%;
+  background-color: #abe2c4;
+  top: 80px;
+  left: 280px;
+}
+
+body .imageinside .imageone {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+body label #sidebar {
+  z-index: 1;
+  cursor: pointer;
+  background-color: #44a46c;
+  position: absolute;
+  left: 220px;
+  top: 30px;
+  border-radius: 25px;
+  -webkit-transition: 0.20s;
+  transition: 0.20s;
+}
+
+body label #sidebar:hover {
+  background-color: #073c6c;
+}
+
+body #check:checked ~ .dressshop {
+  left: -230px;
+}
+
+body #check:checked ~ .imageinside {
+  left: 80px;
+}
+
+body #check:checked ~ .database {
+  left: 80px;
+}
+
+body #check {
+  display: none;
+}
+
+body .dressshop {
+  position: absolute;
+  width: 250px;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+  -webkit-transition-property: left;
+  transition-property: left;
+}
+
+body .dressshop .mainone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  text-decoration: none;
+  list-style: none;
+  background-color: #44a46c;
+  font-family: 'Baloo Tammudu 2';
+}
+
+body .dressshop .mainone li {
+  border-radius: 15px;
+  color: #073c6c;
+  font-family: 'Baloo Tammudu 2';
+  list-style: none;
+  margin: 10px;
+  background-color: #5cdb94;
+}
+
+body .dressshop .mainone li i {
+  margin: 5px;
+  color: #e9f3e1;
+}
+
+body .dressshop .mainone li ul {
+  background-color: #3a9383;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+body .dressshop .mainone li ul li {
+  background-color: #e9f3e1;
+  padding: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.34s;
+  transition: 0.34s;
+}
+
+body .dressshop .mainone li ul li:hover {
+  background-color: #44a46c;
+  color: #e9f3e1;
+}
+
+body .database {
+  position: absolute;
+  top: 499px;
+  left: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  row-gap: 30px;
+  -webkit-column-gap: 25px;
+          column-gap: 25px;
+  z-index: -1;
+}
+
+body .database div {
+  position: relative;
+  width: 230px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .database div img {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+body .database div h1 {
+  font-family: 'Baloo Tammudu 2';
+  font-size: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #5cdb94;
+}
+
+body .database div p {
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+body .database div button {
+  border-style: none;
+  font-family: 'Baloo Tammudu 2';
+  font-size: 13px;
+  border-radius: 10px;
+  color: #abe2c4;
+  background-color: #073c6c;
+  width: 100px;
+  cursor: pointer;
+}
+
+body .database div button i {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .database div button:hover {
+  background-color: #e9f3e1;
+  color: #073c6c;
+}
+
+body .foot {
+  position: fixed;
+  width: 100%;
+  height: 20px;
+  bottom: 0px;
+  background-color: #073c6c;
+}
+
+body .foot ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  list-style: none;
+}
+
+body .foot ul li {
+  padding-right: 10px;
+  color: #e9f3e1;
+}
+
+body .foot ul li i {
+  font-size: 20px;
+}
+
+body .loader-container {
+  width: 100%;
+  height: 200%;
+  background-color: #073c6c;
+  position: absolute;
+  margin-top: -50px;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .loader {
+  position: absolute;
+  top: 250px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  color: #5cdb94;
+  border-radius: 50%;
+  border-top-color: transparent;
+  -webkit-animation: loader 1.2s linear infinite;
+          animation: loader 1.2s linear infinite;
+}
+
+@-webkit-keyframes loader {
+  25% {
+    color: #3a9383;
+  }
+  50% {
+    color: pink;
+  }
+  75% {
+    color: yellow;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes loader {
+  25% {
+    color: #3a9383;
+  }
+  50% {
+    color: pink;
+  }
+  75% {
+    color: yellow;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1300px) {
+  body .menu ul {
+    margin-left: 377px;
+  }
+}
+
+@media (max-width: 1000px) {
+  body .menu ul {
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 800px) {
+  body .menu ul {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 700px) {
+  body .menu
+ul {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  body .menu ul {
+    margin-left: 0px;
+  }
+  body h1 i {
+    z-index: -1;
+  }
+  body h1 .start {
+    display: none;
+  }
+  body h1 .end {
+    display: none;
+  }
+  body label #sidebar {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+  }
+  body .cart {
+    right: 0px;
+  }
+}
+/*# sourceMappingURL=design.css.map */

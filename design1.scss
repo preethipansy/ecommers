@@ -1,0 +1,252 @@
+$color1:#073c6c;
+$color2:#e9f3e1;
+$color3:#5cdb94;
+$color4:#3a9383;
+$color5:#44a46c;
+$color6:#abe2c4;
+img{
+    width:100%;
+    height:100%;
+}
+.mes{
+    position: absolute;
+    top:150px;
+    left:488px;
+    font-family: 'Baloo Tammudu 2';
+   i{
+       z-index: 1;
+       font-size: 30px;
+      
+   }
+}
+.logincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form{
+       
+        margin-top: -700px;
+        margin-left: 500px;
+        width: 400px;
+        height: 350px;
+       
+        fieldset{
+            text-decoration: none;
+            border: 2px solid $color1;
+            border-radius: 20px;
+            legend{
+                margin-left: 10%;
+                text-decoration: none;
+                
+                i{
+                   color: $color2;
+                    font-size: 60px;
+                }
+            }  
+        }
+        fieldset:hover{
+            height:300px;
+            .in{
+                margin:30px;
+            }
+            .pa{
+                margin:30px;
+            }
+            .sub{
+                margin:30px;
+            }
+                }
+       input{
+
+           width: 330px;
+           height: 35px;
+           border-radius: 20px;
+           display: flex;
+           flex-direction: column;
+        }  
+       .in{
+           margin-left: 30px;
+           font-family: 'Baloo Tammudu 2';
+           font-size: 20px;
+           background-color: $color3;
+           color: black;
+           border-color: $color1;
+           cursor: pointer;
+       }
+       .in:hover{
+        border-top-color: transparent;
+        animation: in 1.2s linear infinite ;
+        @keyframes in {
+            25%{
+                border-color:$color1;
+            }
+            50%{
+                border-color:$color2;
+            }
+            75%{
+                border-color:$color5;
+            }
+            to{
+                transform: border rotate(360deg);
+            }
+        }
+       }
+       .pa{
+        margin-left: 30px;
+        font-family: 'Baloo Tammudu 2';
+        font-size: 20px;
+        background-color: $color3;
+        color:black;
+        border-color: $color1;
+        cursor: pointer;
+       }
+        .pa:hover{
+            border-top-color: transparent;
+            animation: pa 1.2s linear infinite ;
+            @keyframes pa {
+                25%{
+                    border-color:$color1;
+                }
+                50%{
+                    border-color:$color2;
+                }
+                75%{
+                    border-color:$color5;
+                }
+                to{
+                    transform: border rotate(360deg);
+                }
+            }
+    }
+       .sub{
+        margin-left: 30px;
+        font-family: 'Baloo Tammudu 2';
+        font-size: 20px;
+        background-color: $color1;
+        color: $color2;
+        border-color: $color1;
+        cursor: pointer;
+       }
+       .sub:hover{
+           background-color: black;
+           color: white;
+       }
+    }
+}
+       .signup{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        form{
+           
+            margin-top: -700px;
+            margin-right:400px;
+            width: 400px;
+            height: 350px;
+           
+            fieldset{
+                text-decoration: none;
+                border: 2px solid $color1;
+                border-radius: 20px;
+                legend{
+                    margin-left: 45%;
+                    text-decoration: none;
+                    
+                    i{
+                       color: $color2;
+                        font-size: 60px;
+                    }
+                }  
+            }
+            fieldset:hover{
+                height:410px;
+                .in{
+                    margin:30px;
+                }
+                .pa{
+                    margin:30px;
+                }
+                .sub{
+                    margin:30px;
+                }
+                    }
+           input{
+    
+               width: 330px;
+               height: 35px;
+               border-radius: 20px;
+               display: flex;
+               flex-direction: column;
+            }  
+           .in{
+               margin-left: 30px;
+               font-family: 'Baloo Tammudu 2';
+               font-size: 20px;
+               background-color: $color3;
+               color: black;
+               border-color: $color1;
+               cursor: pointer;
+           }
+           .in:hover{
+            border-top-color: transparent;
+            animation: in 1.2s linear infinite ;
+            @keyframes in {
+                25%{
+                    border-color:$color1;
+                }
+                50%{
+                    border-color:$color2;
+                }
+                75%{
+                    border-color:$color5;
+                }
+                to{
+                    transform: border rotate(360deg);
+                }
+            }
+           }
+           .pa{
+            margin-left: 30px;
+            font-family: 'Baloo Tammudu 2';
+            font-size: 20px;
+            background-color: $color3;
+            color:black;
+            border-color: $color1;
+            cursor: pointer;
+           }
+            .pa:hover{
+                border-top-color: transparent;
+                animation: pa 1.2s linear infinite ;
+                @keyframes pa {
+                    25%{
+                        border-color:$color1;
+                    }
+                    50%{
+                        border-color:$color2;
+                    }
+                    75%{
+                        border-color:$color5;
+                    }
+                    to{
+                        transform: border rotate(360deg);
+                    }
+                }
+        }
+           .sub{
+            margin-left: 30px;
+            font-family: 'Baloo Tammudu 2';
+            font-size: 20px;
+            background-color: $color1;
+            color: $color2;
+            border-color: $color1;
+            cursor: pointer;
+           }
+           .sub:hover{
+               background-color: black;
+               color: white;
+           }
+        }
+       
+     
+
+}
